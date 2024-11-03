@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "auth": ["facebook", "userpass"],
+    "functions": ["stake", "burn", "transfer"],
+    "networks": ["ethereum", "bsc"],
+    "templateName": "Template A",
+    "worker":"https://...",
+    "githubRepo": "https://github.com/user/repo1"
+  },
+  {
+    "id": 2,
+    "auth": ["facebook", "instagram"],
+    "functions": ["stake", "burn", "transfer"],
+    "networks": ["ethereum", "polygon"],
+    "templateName": "Template B",
+    "worker":"https://...",
+    "githubRepo": "https://github.com/user/repo2"
+  },
+  {
+    "id": 3,
+    "auth": ["userpass", "instagram"],
+    "functions": ["stake", "burn", "transfer"],
+    "networks": ["ethereum", "bsc"],
+    "templateName": "Template C",
+    "worker":"https://...",
+    "githubRepo": "https://github.com/user/repo3"
+  },
+  {
+    "id": 4,
+    "auth": ["facebook", "userpass"],
+    "functions": ["stake", "burn", "transfer"],
+    "networks": ["ethereum", "polygon"],
+    "templateName": "Template D",
+    "worker":"https://...",
+    "githubRepo": "https://github.com/user/repo4"
+  },
+  {
+    "id": 5,
+    "auth": ["facebook", "userpass"],
+    "functions": ["stake", "burn", "transfer"],
+    "networks": ["ethereum", "bsc", "polygon"],
+    "templateName": "Template E",
+    "worker":"https://...",
+    "githubRepo": "https://github.com/user/repo1"
+  }
+]

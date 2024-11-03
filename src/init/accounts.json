@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Account 1",
+    "chain": "Ethereum",
+    "contractAddress": "0x1234567890abcdef",
+    "userIdRef": "user123",
+    "template": "Template 1",
+    "createdon":"11/02/2023 0800"
+  },
+  {
+    "id": 2,
+    "name": "Account 1",
+    "chain": "Terra",
+    "contractAddress": "terra0x121123131234567890abcdef",
+    "userIdRef": "user123",
+    "template": "Template 1",
+    "createdon":"11/02/2023 0800"
+  },
+  {
+    "id": 4,
+    "name": "Account 1",
+    "chain": "Cosmos",
+    "contractAddress": "cosmos0x121123131234567890abcdef",
+    "userIdRef": "user123",
+    "template": "Template 1",
+    "createdon":"11/02/2023 0800"
+  },
+  {
+    "id": 3,
+    "name": "Account 2",
+    "chain": "Binance Smart Chain",
+    "contractAddress": "0xabcdef1234567890",
+    "userIdRef": "user456",
+    "template": "Template 2",
+    "createdon":"11/02/2023 0800"
+  }
+]
+

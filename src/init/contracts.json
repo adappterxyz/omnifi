@@ -1,0 +1,234 @@
+[
+  {
+    "chainId": "ethereum",
+    "label": "Ethereum",
+    "children": [
+      {
+        "label": "DeFi Group",
+        "children": [
+          {
+            "label": "0x123...abc",
+            "children": [
+              { "label": "swapTokens()" },
+              { "label": "addLiquidity()" }
+            ]
+          },
+          {
+            "label": "0x456...def",
+            "children": [
+              { "label": "borrow()" },
+              { "label": "repayLoan()" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "NFT Group",
+        "children": [
+          {
+            "label": "0x789...ghi",
+            "children": [
+              { "label": "mintNFT()" },
+              { "label": "transferNFT()" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Whitelist Group",
+        "children": [
+          {
+            "label": "0x123...abc",
+            "children": [
+              { "label": "swapTokens()" },
+              { "label": "addLiquidity()" }
+            ]
+          },
+          {
+            "label": "0x456...def",
+            "children": [
+              { "label": "borrow()" },
+              { "label": "repayLoan()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "bsc",
+    "label": "Binance Smart Chain",
+    "children": [
+      {
+        "label": "Token Group",
+        "children": [
+          {
+            "label": "0xabc...123",
+            "children": [
+              { "label": "transferToken()" },
+              { "label": "approveToken()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "polygon",
+    "label": "Polygon",
+    "children": [
+      {
+        "label": "Staking Group",
+        "children": [
+          {
+            "label": "0x987...xyz",
+            "children": [
+              { "label": "stakeTokens()" },
+              { "label": "unstakeTokens()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "ton",
+    "label": "Ton",
+    "children": [    ]
+  },
+  {
+    "chainId": "xrp",
+    "label": "Ripple",
+    "children": [    ]
+  },
+  {
+    "chainId": "bitkub",
+    "label": "Bitkub",
+    "children": [    ]
+  },
+  {
+    "chainId": "sui",
+    "label": "Sui",
+    "children": [    ]
+  },
+  {
+    "chainId": "hedera",
+    "label": "Hedera",
+    "children": [    ]
+  },
+  {
+    "chainId": "injective",
+    "label": "Injective",
+    "children": [    ]
+  },
+  {
+    "chainId": "tezos",
+    "label": "Tezos",
+    "children": [
+      {
+        "label": "Governance Group",
+        "children": [
+          {
+            "label": "0x555...ttt",
+            "children": [
+              { "label": "vote()" },
+              { "label": "proposeChange()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "cosmos",
+    "label": "Cosmos",
+    "children": [
+      {
+        "label": "DEX Group",
+        "children": [
+          {
+            "label": "0xaaa...ccc",
+            "children": [
+              { "label": "exchangeTokens()" },
+              { "label": "addPair()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "terra",
+    "label": "Terra",
+    "children": [
+      {
+        "label": "Lending Group",
+        "children": [
+          {
+            "label": "0xbbb...lll",
+            "children": [
+              { "label": "lend()" },
+              { "label": "borrow()" },
+              { "label": "stake()" },
+              { "label": "burn()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "akash",
+    "label": "Akash",
+    "children": [
+      {
+        "label": "Cloud Group",
+        "children": [
+          {
+            "label": "0xccc...aaa",
+            "children": [
+              { "label": "deployService()" },
+              { "label": "stopService()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "solana",
+    "label": "Solana",
+    "children": [
+      {
+        "label": "Marketplace Group",
+        "children": [
+          {
+            "label": "0xddd...sss",
+            "children": [
+              { "label": "listItem()" },
+              { "label": "buyItem()" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chainId": "sei",
+    "label": "Sei",
+    "children": [
+      {
+        "label": "Trading Group",
+        "children": [
+          {
+            "label": "0xeeee...sss",
+            "children": [
+              { "label": "placeOrder()" },
+              { "label": "cancelOrder()" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

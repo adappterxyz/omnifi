@@ -1,0 +1,11 @@
+[
+  { "id": "ethereum", "label": "Ethereum", "icon": "Ethereum", "language":"solidity" },
+  { "id": "bsc", "label": "Binance Smart Chain", "icon": "BinanceCoin", "language":"solidity" },
+  { "id": "polygon", "label": "Polygon", "icon": "Polygon", "language":"solidity" },
+  { "id": "base", "label": "Base", "icon": "Base", "language":"solidity" },
+  { "id": "avax", "label": "Avalache", "icon": "Avalanche", "language":"solidity" },
+  { "id": "bitkub", "label": "Bitkub", "icon": "Bitkub", "language":"solidity" },
+  { "id": "hedera", "label": "Hedera", "icon": "Hedera", "language":"solidity" },
+  { "id": "monad", "label": "Monad", "icon": "Monad", "language":"solidity" },
+  { "id": "conflux", "label": "Conflux", "icon": "Conflux", "language":"solidity" }
+]

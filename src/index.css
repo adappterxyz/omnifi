@@ -1,0 +1,127 @@
+
+/* root colors defined in style */
+body {
+  font-family: var(--font-family) !important;
+  background-color: var(--background-color);
+  color: #333;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{ color:var(--background-color); }
+
+.node {
+  background: white;
+  border: 1px solid #777;
+  padding: 10px;
+  border-radius: 5px;
+}
+table{max-width:100%; }
+.dndflow {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #fcfcfc;
+}
+
+.dndflow aside .description {
+  margin-bottom: 10px;
+}
+
+.dndflow .dndnode {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #1a192b;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.dndflow .dndnode.input {
+  border-color: #0041d0;
+}
+
+.dndflow .dndnode.output {
+  border-color: #ff0072;
+}
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow .selectall {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 20%;
+    max-width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Styles for desktop and larger screens */
+@media screen and (min-width: 1200px) {
+  /* Add your CSS rules here */
+}
+
+/* Styles for tablet-sized screens */
+@media screen and (min-width: 440px) and (max-width: 1199px) {
+  /* Add your CSS rules here */
+  .templatedetails {
+    display: none;
+  }
+}
+
+/* Styles for mobile and smaller screens */
+@media screen and (max-width: 440px) {
+  /* Add your CSS rules here */
+  .config > div {
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    display: block;
+  }
+}
